@@ -1,0 +1,23 @@
+{
+  "name": "pouchdb-adapter-orbitdb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "pouchdb-adapter-orbitdb.js",
+  "dependencies": {
+    "ipfs": "~0.25.1",
+    "orbit-db": "github:orbitdb/orbit-db#feat/write-access",
+    "pouchdb": "^6.3.4",
+    "pouchdb-adapter-utils": "^6.3.4",
+    "pouchdb-merge": "^6.3.4",
+    "pouchdb-replication": "^6.3.4",
+    "pouchdb-utils": "^6.3.4",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node pouchdb-orbitdb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haad",
+  "license": "MIT"
+}
