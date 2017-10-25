@@ -141,3 +141,13 @@ Error: Not allowed to write
 
 Finished successfully
 ```
+
+# Code Example
+
+```js
+db = new PouchDB('hellodb', {
+  adapter: 'orbitdb', 
+  path: orbitDbPath, 
+  ipfs: ipfsInstance,
+})
+```
